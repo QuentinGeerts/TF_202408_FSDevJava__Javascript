@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+        ❤️ : Dans un fichier externe 
+        defer: permet de différer le chargement du script jusqu'à ce que la page soit complètement chargée.
+    -->
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- 💩 : Directement sur l'élément HTML -->
+    <button onclick="console.log('Tu as cliqué sur le bouton')">Clique sur moi</button>
+
+    <p id="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, mollitia! Earum aliquid eum maiores, officiis enim vel eveniet quibusdam ratione, iure ipsam quasi est perferendis dolor fugiat ipsa, similique rerum?
+    </p>
+
+    <!-- ✓ : Dans une balise script -->
+    <script>
+        console.log("Le code est exécuté dans la balise script.");
+    </script>
+</body>
+
+</html>
