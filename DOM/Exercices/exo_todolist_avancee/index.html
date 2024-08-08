@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <style>
+
+        ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        ul li button {
+            margin: 0 10px;
+        }
+
+        ul li input[type="checkbox"] 
+        {
+            margin: 0 10px;
+        }
+
+        .isDone {
+            color: #aaaaaa;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="text" id="userInput" value="Valeur par défaut">
+    <button id="btnTaskAdd">Ajouter élément</button>
+    <button id="btnReset">Vider la liste</button>
+
+    <ul id="todos">
+        <!-- Généré par Javascript -->
+    </ul>
+
+</body>
+
+</html>
