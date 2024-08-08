@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <style>
+        form>* {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="myform">
+
+        <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" id="lastname">
+
+        <label for="firstname">Firstname:</label>
+        <input type="text" name="firstname" id="firstname">
+
+        <label for="zipcode">Zipcode:</label>
+        <input type="number" name="zipcode" id="zipcode" min="1000" max="9999" step="1">
+
+        <div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Send">
+            <button type="button" id="btnAC">Auto-complete</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
