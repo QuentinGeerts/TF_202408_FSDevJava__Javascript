@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+
+    <style>
+        form>* {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="myForm" id="myForm">
+
+        <label for="firstname">Prénom:</label>
+        <input type="text" name="firstname" id="firstname">
+        <p></p>
+
+
+        <div>
+            <input type="checkbox" name="javascript" id="javascript">
+            <label for="javascript">Javascript</label>
+        </div>
+        <div>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+        </div>
+        <div>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+        </div>
+
+        <div>
+            <input type="radio" name="sex" id="man" value="man">
+            <label for="man">Man</label>
+        </div>
+        <div>
+            <input type="radio" name="sex" id="woman" value="woman">
+            <label for="woman">Woman</label>
+        </div>
+        <div>
+            <input type="radio" name="sex" id="x" value="x">
+            <label for="x">X</label>
+        </div>
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="datetime-local" name="birthdate" id="birthdate">
+
+        <input type="submit" value="Envoyer">
+
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
