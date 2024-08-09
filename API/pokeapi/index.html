@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer type="module"></script>
+
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .d-flex {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #menu {
+            width: 200px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="types.css">
+</head>
+
+<body>
+
+    <h1>PokeAPI</h1>
+
+    <div class="d-flex">
+
+        <div id="menu">
+            <button id="btnPrevious">Précédent</button>
+            <button id="btnNext">Suivant</button>
+
+            <div id="list">
+
+            </div>
+        </div>
+
+        <div id="details" class="hide">
+
+            <div>
+                <h3><span id="pokemonName"></span> N°<span id="pokemonNumber"></span></h3>
+
+                <div>
+                    <h4>Type</h4>
+                    <div id="pokemonTypes">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <div id="pokemonSprite">
+
+                </div>
+                <div>
+                    <p>Taille: <span id="pokemonHeight"></span></p>
+                    <p>Poids: <span id="pokemonWeight"></span></p>
+                    <hr>
+                    <p>PV: <span id="pokemonHp"></span></p>
+                    <p>Attaque: <span id="pokemonAtt"></span></p>
+                    <p>Attaque Spé: <span id="pokemonAttSpe"></span></p>
+                    <p>Défense: <span id="pokemonDef"></span></p>
+                    <p>Défense Spé: <span id="pokemonDefSpe"></span></p>
+                    <p>Vitesse: <span id="pokemonSpeed"></span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -50,9 +50,6 @@ window.addEventListener('load', () => {
         <p>Couché du soleil: ${sunset.getHours()}:${sunset.getMinutes()}</p>
 
         `;
-
-
-
     }
 
     async function getCoordsFromCity (city) {
